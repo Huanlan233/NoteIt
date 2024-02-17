@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "top.htext.noteit.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "PlaySoundCommandMixin",
+    "SoundSystemMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
